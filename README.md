@@ -31,6 +31,8 @@ Add to your Claude Code project:
 | 10 | clustering-market-basket | data-mining | K-means, hierarchical clustering, association rules, Apriori |
 | 11 | investment-analysis | workflows | End-to-end: simulate → decide → optimize |
 | 12 | project-valuation | workflows | Value projects with real options and managerial flexibility |
+| 13 | risk-assessment-pipeline | workflows | Model risk factors, simulate, quantify VaR/CVaR |
+| 14 | demand-forecasting-pipeline | workflows | Forecast demand, uncertainty bounds, optimize resources |
 
 ## Output Modes
 
@@ -40,6 +42,15 @@ Every skill detects what you want and routes accordingly:
 - **Python** — "Run a simulation" → Self-contained Python script with charts
 - **Both** — "Build and run the analysis" → Python computes, Excel formats
 - **Teach** — "Walk me through decision trees" → Explanation only, no code
+
+## Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/shortcut_bridge.py` | Generate Excel workbooks via Shortcut.ai API with IB formatting |
+| `scripts/ib_formatter.py` | Apply IB color coding and number formatting to any .xlsx |
+| `scripts/excel_validator.py` | Validate workbook against IB formatting and formula standards |
+| `scripts/recalc.py` | Scan workbook for formula errors (#REF!, #DIV/0!, etc.) |
 
 ## Prerequisites
 

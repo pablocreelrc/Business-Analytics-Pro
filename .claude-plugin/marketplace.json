@@ -80,6 +80,18 @@
         "description": "Project valuation with real options and managerial flexibility"
       },
       {
+        "name": "risk-assessment-pipeline",
+        "category": "workflows",
+        "path": "workflows/risk-assessment-pipeline/SKILL.md",
+        "description": "End-to-end risk assessment: model uncertainties, simulate, quantify VaR"
+      },
+      {
+        "name": "demand-forecasting-pipeline",
+        "category": "workflows",
+        "path": "workflows/demand-forecasting-pipeline/SKILL.md",
+        "description": "Forecast demand, quantify uncertainty, optimize resource allocation"
+      },
+      {
         "name": "skill-authoring-workflow",
         "category": "infrastructure",
         "path": "infrastructure/skill-authoring-workflow/SKILL.md",

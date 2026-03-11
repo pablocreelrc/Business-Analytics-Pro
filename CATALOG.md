@@ -1,6 +1,6 @@
 # Business-Analytics-Pro Catalog
 
-Complete inventory of all 13 skills organized by category.
+Complete inventory of all 15 skills organized by category.
 
 ---
 
@@ -44,17 +44,19 @@ Complete inventory of all 13 skills organized by category.
 | 9 | [classification](data-mining/classification/SKILL.md) | Interactive | classification, logistic-regression, naive-bayes, roc, auc |
 | 10 | [clustering-market-basket](data-mining/clustering-market-basket/SKILL.md) | Interactive | clustering, k-means, association-rules, apriori, lift |
 
-## Workflows (2)
+## Workflows (4)
 
 | # | Workflow | Skills Chained |
 |---|---------|---------------|
 | 11 | [investment-analysis](workflows/investment-analysis/SKILL.md) | spreadsheet-modeling → monte-carlo-simulation → decision-analysis → optimization-models |
 | 12 | [project-valuation](workflows/project-valuation/SKILL.md) | spreadsheet-modeling → probability-distributions → monte-carlo-simulation → decision-analysis |
+| 13 | [risk-assessment-pipeline](workflows/risk-assessment-pipeline/SKILL.md) | probability-distributions → simulation-models → monte-carlo-simulation → decision-analysis |
+| 14 | [demand-forecasting-pipeline](workflows/demand-forecasting-pipeline/SKILL.md) | time-series-forecasting → monte-carlo-simulation → optimization-models |
 
 ## Infrastructure (1)
 
 | # | Skill | Type | Tags |
 |---|-------|------|------|
-| 13 | [skill-authoring-workflow](infrastructure/skill-authoring-workflow/SKILL.md) | Infrastructure | meta, authoring, template |
+| 15 | [skill-authoring-workflow](infrastructure/skill-authoring-workflow/SKILL.md) | Infrastructure | meta, authoring, template |
 
 ---
