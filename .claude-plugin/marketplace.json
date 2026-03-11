@@ -1,0 +1,90 @@
+{
+  "name": "Business-Analytics-Pro",
+  "owner": "pablocreelrc",
+  "metadata": {
+    "description": "Business analytics and decision modeling skills for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": {
+    "skills": [
+      {
+        "name": "spreadsheet-modeling",
+        "category": "foundations",
+        "path": "foundations/spreadsheet-modeling/SKILL.md",
+        "description": "Spreadsheet modeling fundamentals — breakeven, NPV, sensitivity analysis"
+      },
+      {
+        "name": "probability-distributions",
+        "category": "probability",
+        "path": "probability/probability-distributions/SKILL.md",
+        "description": "Probability distributions for business uncertainty modeling"
+      },
+      {
+        "name": "decision-analysis",
+        "category": "probability",
+        "path": "probability/decision-analysis/SKILL.md",
+        "description": "Decision trees, EMV, value of information, Bayes Rule, real options"
+      },
+      {
+        "name": "monte-carlo-simulation",
+        "category": "simulation",
+        "path": "simulation/monte-carlo-simulation/SKILL.md",
+        "description": "Monte Carlo simulation for risk analysis and uncertainty modeling"
+      },
+      {
+        "name": "simulation-models",
+        "category": "simulation",
+        "path": "simulation/simulation-models/SKILL.md",
+        "description": "Advanced simulation with correlated inputs and domain-specific models"
+      },
+      {
+        "name": "intro-to-optimization",
+        "category": "optimization",
+        "path": "optimization/intro-to-optimization/SKILL.md",
+        "description": "Linear programming, Solver setup, sensitivity analysis"
+      },
+      {
+        "name": "optimization-models",
+        "category": "optimization",
+        "path": "optimization/optimization-models/SKILL.md",
+        "description": "Integer programming, transportation, portfolio optimization, scheduling"
+      },
+      {
+        "name": "time-series-forecasting",
+        "category": "forecasting",
+        "path": "forecasting/time-series-forecasting/SKILL.md",
+        "description": "Time series forecasting with smoothing, trend, and seasonality methods"
+      },
+      {
+        "name": "classification",
+        "category": "data-mining",
+        "path": "data-mining/classification/SKILL.md",
+        "description": "Classification with logistic regression, trees, naive Bayes, neural nets"
+      },
+      {
+        "name": "clustering-market-basket",
+        "category": "data-mining",
+        "path": "data-mining/clustering-market-basket/SKILL.md",
+        "description": "K-means clustering, hierarchical clustering, association rules"
+      },
+      {
+        "name": "investment-analysis",
+        "category": "workflows",
+        "path": "workflows/investment-analysis/SKILL.md",
+        "description": "End-to-end investment analysis: simulate, decide, optimize"
+      },
+      {
+        "name": "project-valuation",
+        "category": "workflows",
+        "path": "workflows/project-valuation/SKILL.md",
+        "description": "Project valuation with real options and managerial flexibility"
+      },
+      {
+        "name": "skill-authoring-workflow",
+        "category": "infrastructure",
+        "path": "infrastructure/skill-authoring-workflow/SKILL.md",
+        "description": "Template and conventions for creating new skills in this repo"
+      }
+    ]
+  }
+}
